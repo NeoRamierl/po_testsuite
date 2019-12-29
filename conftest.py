@@ -29,4 +29,4 @@ def browser(request):
         browser = webdriver.Firefox(firefox_profile=fp, firefox_binary=binary)
     yield browser
     print("\nquit browser..")
-    browser.quit()
+    # browser.quit()
